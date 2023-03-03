@@ -1,9 +1,8 @@
 export class TaskList{
-    ul: HTMLElement;
     list: string[] = [];
-
+    ul: HTMLElement;
+    
     constructor(zawarudo: HTMLElement){
-        this.list = ['task 1','task 2','task 3'];
         this.ul = zawarudo;
         this.read();
         this.render();
@@ -21,21 +20,34 @@ export class TaskList{
     }
 
     render(){
-        this.ul.innerHTML = "";
+        this.ul.innerHTML = '';
         this.list.forEach((task) => {
             const li = document.createElement("li");
+            li.className = "mb-2";
             const button = document.createElement("button");
-
+            button.className = "btn btn-danger btn-sm ms-2";
             button.innerText = "-";
             button.addEventListener("click", ()=>{
-                const ls = this.list.indexOf(task);
-                if(ls > 0){
-                    this.list.splice(ls, 1);
-                }
+                this.remove(task);
             });
             li.innerText = task;
             li.appendChild(button);
             this.ul.appendChild(li);
         });
+    }
+
+    add(task : string){
+        this.list.push(task);
+        this.save();
+        this.render();
+    }
+
+    remove(task : string){
+        const ls = this.list.indexOf(task);
+        if(ls >= 0){
+            this.list.splice(ls, 1);
+            this.save();
+            this.render();
+        }
     }
 }
