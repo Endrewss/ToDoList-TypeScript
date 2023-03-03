@@ -1,6 +1,6 @@
 {
-    "compilerOptions": {
-        "target" : "esnext",
-        "version" : "0.0.0"
-    }
+  "name": "typescript",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {}
 }
