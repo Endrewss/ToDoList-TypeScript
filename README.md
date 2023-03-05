@@ -1,6 +1,6 @@
 <h1 align="center"> To Do List </h1>
 
-![Badge de Creation = february](https://img.shields.io/badge/criação-março-blue?style=for-the-badge) ![Badge do status = in progress](https://img.shields.io/badge/STATUS-EM%20ANDAMENTO-purple?style=for-the-badge)
+![Badge de Creation = march](https://img.shields.io/badge/criação-março-blue?style=for-the-badge) ![Badge do status = in progress](https://img.shields.io/badge/STATUS-EM%20ANDAMENTO-purple?style=for-the-badge)
 
 ## Descrição do projeto
 
