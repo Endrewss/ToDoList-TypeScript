@@ -32,7 +32,7 @@ Falando sobre essa To Do List, ela é um projeto que decidi fazer ao ver o víde
 
 ## 📁 Acesso a To Do List
 
-**Um navegador e acessar o link**
+**Ter um navegador e acessar o link**
 >Link: https://typescript-todolist-endrewss.stackblitz.io/
 
 ## 🛠️ Abrir o link e utilizar a To Do List
@@ -53,3 +53,4 @@ A To-do List é um projeto simples, porém muito útil, que demonstra como é po
 
 | [<img src="https://i.imgur.com/ijd1TDn.png" width=115><br><sub>Endrews Nunes de Azevedo </sub>](https://github.com/Endrewss)
 | :---:
+
